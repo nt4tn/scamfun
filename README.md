@@ -32,7 +32,7 @@ When the bonding curve is completed, the `migrate` instruction is executed, movi
 ### 2.1 The Virtual Reserve Reclaim
 The price stability of the bonding curve is artificially maintained by the $30$ SOL Virtual Advance. Upon migration, the protocol **reclaims** this $30$ SOL. This results in a significant drop in the invariant $k$.
 
-![Virtual vs Real Liquidity Density Drop](https://i.ibb.co/gMw95RjY/Gemini-Generated-Image-n8ai7hn8ai7hn8ai.png)
+![Virtual vs Real Liquidity Density Drop](https://i.ibb.co/jvGfcr6t/Gemini-Generated-Image-n8ai7hn8ai7hn8ai.png)
 
 | Metric | Pre-Migration (VBC) | Post-Migration (AMM) | Delta (%) |
 | :--- | :--- | :--- | :--- |
