@@ -61,6 +61,12 @@ $$Value\_Loss = \left( 1 - \frac{k_{amm}}{k_{vbc}} \right) \approx 26.08\%$$
 ![Pump.fun Liquidity Trap Value Loss](https://i.ibb.co/xqx2jG3q/Gemini-Generated-Image-v8zqllv8zqllv8zq.png)
 
 ---
+## 5. Deployment and Stress Testing
+To validate these findings in a live environment, a stress-test token will be deployed using the following canonical wallet:
+
+"8tLixaNjFx1PVaUmK1zYFcE2AsmVfuo796VA1rTX1Jdq"
+
+This deployment will serve as a public benchmark for measuring real-time liquidity compression and fee-sharing efficiency.
 
 ## 4. Implementation & Analysis Scripts
 
@@ -73,3 +79,7 @@ def calculate_graduation_impact(real_sol_raised, virtual_sol_advance):
 
 print(calculate_graduation_impact(85, 30))
 # Output: Liquidity Density Drop: 26.09%
+
+---
+
+
