@@ -1,4 +1,4 @@
-#  Pump.fun Protocol: Asymptotic State Transitions and The Liquidity Extraction "Trap"
+#  SCAMFUN Protocol: Asymptotic State Transitions and The Liquidity Extraction "Trap"
 
 This repository provides a rigorous mathematical framework for the **Pump.fun** lifecycle. We move beyond simple trading mechanics to analyze the **Virtual Bonding Curve (VBC)**, the **Deterministic Migration Instruction**, and the systemic extraction of value during the "graduation" phase.
 
