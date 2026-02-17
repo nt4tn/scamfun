@@ -1,4 +1,4 @@
-#  Pump.fun Protocol: Asymptotic State Transitions and The Liquidity Extraction "Trap"
+# 📉 Pump.fun Protocol: Asymptotic State Transitions and The Liquidity Extraction "Trap"
 
 This repository provides a rigorous mathematical framework for the **Pump.fun** lifecycle. We move beyond simple trading mechanics to analyze the **Virtual Bonding Curve (VBC)**, the **Deterministic Migration Instruction**, and the systemic extraction of value during the "graduation" phase.
 
@@ -35,7 +35,7 @@ When `complete == true`, the `migrate` instruction is called. This is a non-reve
 ### 2.1 The Liquidity Density Shift
 Inside the bonding curve, the "smoothness" of the price is protected by the **30 SOL Virtual Advance**. Upon migration, the protocol **reclaims** that virtual SOL, which creates a massive delta in liquidity depth.
 
-
+![Virtual vs Real Liquidity Density Drop](https://i.ibb.co/gMw95RjY/Gemini-Generated-Image-n8ai7hn8ai7hn8ai.png)
 
 | Metric | Pre-Migration (VBC) | Post-Migration (AMM) |
 | :--- | :--- | :--- |
@@ -53,6 +53,9 @@ Inside the bonding curve, the "smoothness" of the price is protected by the **30
 While Pump.fun advertises "Free Launching," the protocol extracts significant value during the graduation event. Critics refer to this as the **"Liquidity Trap."**
 
 ### 3.1 The SOL Extraction Formula (The "Scam" Analysis)
+
+![Pump.fun Liquidity Trap Value Loss](https://i.ibb.co/xqx2jG3q/Gemini-Generated-Image-v8zqllv8zqllv8zq.png)
+
 During the migration from the curve to the DEX, the protocol handles the $85$ SOL raised as follows:
 
 1.  **Protocol Skim**: Before PumpSwap, the protocol took a **6 SOL Migration Fee**. This meant $85$ SOL was raised, but only $79$ SOL reached the pool.
