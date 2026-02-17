@@ -1,4 +1,4 @@
-# 📉 Pump.fun Protocol: Asymptotic State Transitions and Liquidity Compression Analysis
+#  Pump.fun Protocol trader cashbag (scamfun): Asymptotic State Transitions and Liquidity Compression Analysis
 
 This repository provides a rigorous mathematical framework for the **Pump.fun** protocol lifecycle. It analyzes the transition from a virtualized internal market to a decentralized Automated Market Maker (AMM) and evaluates the systemic impact of protocol-level extraction on market stability.
 
