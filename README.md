@@ -35,7 +35,7 @@ When `complete == true`, the `migrate` instruction is called. This is a non-reve
 ### 2.1 The Liquidity Density Shift
 Inside the bonding curve, the "smoothness" of the price is protected by the **30 SOL Virtual Advance**. Upon migration, the protocol **reclaims** that virtual SOL, which creates a massive delta in liquidity depth.
 
-![Virtual vs Real Liquidity Density Drop](https://i.ibb.co/gMw95RjY/Gemini-Generated-Image-n8ai7hn8ai7hn8ai.png)
+![Virtual vs Real Liquidity Density Drop](https://i.ibb.co/jvGfcr6t/Gemini-Generated-Image-n8ai7hn8ai7hn8ai.png)
 
 | Metric | Pre-Migration (VBC) | Post-Migration (AMM) |
 | :--- | :--- | :--- |
